@@ -1,6 +1,6 @@
 ## Search History task
 
-
+- db name qtec-task
 - .env file is discarded from gitignore. So please run migration and seeding command.
 
 	php artisan migrate
