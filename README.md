@@ -1,3 +1,5 @@
+Both tasks are in same repo. You will find search history task in root url. Pattern matching task is in /task2.  
+
 ## Search History task
 
 composer update
