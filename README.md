@@ -12,7 +12,6 @@
 - As it is demo task, db logic currently in controller not in repositroy.
 - ***Added link of /task2 in search history view page.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Pattern matching procedure
 
