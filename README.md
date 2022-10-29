@@ -5,6 +5,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - .env file is discarded from gitignore. So please run migration and seeding command.
 
 	php artisan migrate
+
 	php artisan db:seed
 
 - I have added an array of today, yesterday, last week and last month random dates in factory. So after seeding, will be able to filter the search history records by all criteria.
