@@ -9,10 +9,10 @@ php artisan migrate
 php artisan db:seed
 
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- I have added an array of today, yesterday, last week and last month random dates in factory. So after seeding, will be able to filter the search history records by all criteria.
+- Didn't consider user registration process, so user=ip address of client.
+- As it is demo task, db logic currently in controller not in repositroy.
+- ***Added link of /task2 in search history view page.
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
