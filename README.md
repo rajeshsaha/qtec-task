@@ -4,11 +4,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 - .env file is discarded from gitignore. So please run migration and seeding command.
 
-php artisan migrate
+	php artisan migrate
+	php artisan db:seed
 
-php artisan db:seed
-
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - I have added an array of today, yesterday, last week and last month random dates in factory. So after seeding, will be able to filter the search history records by all criteria.
 - Didn't consider user registration process, so user=ip address of client.
 - As it is demo task, db logic currently in controller not in repositroy.
