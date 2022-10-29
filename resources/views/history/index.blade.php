@@ -76,15 +76,17 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach($histories as $index => $history)
-                    <tr class="{{ $history->id }}" data-rowkey="{{ $history->id }}">
-                        <th scope="row">{{ $history->id }}</th>
-                        <td>{{ $history->keyword }}</td>
-                        <td>{{ $history->content }}</td>
-                        <td>{{ $history->user }}</td>
-                        <td>{{ $history->search_time }}</td>
-                    </tr>
-                @endforeach
+                @if(!empty($histories))
+                    @foreach($histories as $index => $history)
+                        <tr class="{{ $history->id }}" data-rowkey="{{ $history->id }}">
+                            <th scope="row">{{ $history->id }}</th>
+                            <td>{{ $history->keyword }}</td>
+                            <td>{{ $history->content }}</td>
+                            <td>{{ $history->user }}</td>
+                            <td>{{ $history->search_time }}</td>
+                        </tr>
+                    @endforeach
+                @endif
             </tbody>
         </table>
     </div>
