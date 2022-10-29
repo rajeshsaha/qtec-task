@@ -1,5 +1,6 @@
 ## Search History task
 
+- composer update
 - db name qtec-task
 - .env file is discarded from gitignore. So please run migration and seeding command.
 
